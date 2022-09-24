@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.is-hidden {
+  display: none;
+}
+.playGame {
+  color: blue;
+}
+body {
+  background-image: url("../images/AddNewWords.png");
+  background-size: 100%;
+  max-width: 390;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.input {
+  height: auto;
+}
+
+#new-word {
+  width: 80%;
+  height: 19vw;
+  margin: 10%;
+  background-color: black;
+  color: rgb(73, 255, 73);
+  font-size: 13vw;
+  border: none;
+}
+#new-word:focus {
+  outline: none;
+}
+.buttons {
+  margin-top: 5vw;
+  margin-right: 7vw;
+  display: flex;
+}
+
+.addword {
+  flex: 0.5;
+  padding-left: 13vw;
+}
+.playgame {
+  flex: 0.5;
+  padding-left: 25vw;
+}
+
+#add-word {
+  font-weight: bolder;
+  height: 17vw;
+  background-color: transparent;
+  border: none;
+}
+#play-game {
+  font-weight: bolder;
+  height: 17vw;
+  background-color: transparent;
+  border: none;
+}

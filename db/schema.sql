@@ -1,0 +1,6 @@
+DROP DATABASE IF EXISTS Word_db;
+CREATE DATABASE Word_db;
+
+USE Word_db;
+
+

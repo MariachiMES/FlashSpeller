@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-image: url("../images/GameBoard.png");
+  background-size: 100%;
+  max-width: 390;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+#word {
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 60px;
+  color: green;
+  text-shadow: 0px 0px 10px lightgreen;
+}
+.next-button {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#next {
+  height: 400px;
+  width: auto;
+}
+.back {
+  color: white;
+}
+h1 {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}

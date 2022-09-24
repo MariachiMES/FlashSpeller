@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-image: url("../images/TitlePage.png");
+  background-size: 100%;
+  max-width: 390;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.buttons {
+  color: white;
+  display: flex;
+  transform: translateY(50vh);
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px black;
+  font-size: 40px;
+}
+.left {
+  text-align: center;
+  flex: 0.5;
+  color: white;
+}
+.right {
+  text-align: center;
+  flex: 0.5;
+  color: lightgreen;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.is-hidden {
+  display: none;
+}
